@@ -145,6 +145,56 @@ const config = defineStaticConfig({
         ],
       },
       {
+        label: "Theme",
+        name: "theme",
+        path: "content/theme",
+        format: "json",
+        ui: {
+          global: true,
+        },
+        fields: [
+          {
+            type: "string",
+            label: "Main Color",
+            name: "color",
+            options: [
+              {
+                label: "Blue",
+                value: "blue",
+              },
+              {
+                label: "Teal",
+                value: "teal",
+              },
+              {
+                label: "Green",
+                value: "green",
+              },
+              {
+                label: "Red",
+                value: "red",
+              },
+              {
+                label: "Pink",
+                value: "pink",
+              },
+              {
+                label: "Purple",
+                value: "purple",
+              },
+              {
+                label: "Orange",
+                value: "orange",
+              },
+              {
+                label: "Yellow",
+                value: "yellow",
+              },
+            ],
+          },
+          ]
+      },
+      {
         label: "Global",
         name: "global",
         path: "content/global",
